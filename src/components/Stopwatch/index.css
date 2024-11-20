@@ -1,0 +1,87 @@
+/* Write CSS here */
+.bg-card-container {
+  height: 100vh;
+  background-size: cover;
+}
+
+@media screen and (max-width: 764px) {
+  .bg-card-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  }
+}
+
+@media screen and (min-width: 765px) {
+  .bg-card-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    width: 100%;
+  }
+}
+
+.stopwatch-card-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  margin-left: 200px;
+}
+
+.head-timer-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 20px;
+  width: 20px;
+}
+
+.timer-title {
+  font-size: 15px;
+}
+
+.button-1 {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-size: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-width: 0px;
+  margin-right: 5px;
+}
+
+.button-2 {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-size: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-width: 0px;
+  margin-right: 5px;
+}
+.button-3 {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  font-size: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-width: 0px;
+  margin-right: 5px;
+}
